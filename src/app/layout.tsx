@@ -24,7 +24,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="dark">
           <UserPreferencesProvider>
             <Navbar />
-            <main className="flex flex-col items-center justify-center min-h-screen pt-16 px-6 text-center bg-slate-100 dark:bg-slate-900">
+            <main className="flex flex-col items-center justify-center min-h-screen pt-16 px-6 text-center bg-gray-100 dark:bg-black">
               {children}
             </main>
             <Footer />

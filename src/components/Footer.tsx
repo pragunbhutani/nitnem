@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="w-full text-center p-4 bg-gray-100 dark:bg-gray-800">
+    <footer className="w-full text-center p-4 bg-gray-200 dark:bg-gray-800">
       {/* First line: disclaimer + suggest improvements */}
       <p className="text-sm text-gray-600 dark:text-gray-300">
         <Link href="/disclaimer" className="underline hover:text-blue-600">

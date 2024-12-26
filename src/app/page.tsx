@@ -3,16 +3,16 @@ import Link from "next/link";
 export default function HomePage() {
   return (
     <div className="flex flex-col items-center justify-center">
-      {/* Ek Onkar symbol */}
-      <div className="text-center text-8xl pb-10 text-slate-900 dark:text-slate-100">
+      {/* Ek Onkar symbol
+      <div className="text-center text-8xl pb-10 text-gray-900 dark:text-gray-100">
         ੴ
-      </div>
+      </div> */}
 
       {/* Links to 5 Banis */}
-      <div className="grid grid-cols-1 gap-3 text-center">
+      <div className="grid grid-cols-1 gap-3 text-center text-gray-500">
         <Link
           href="/japji-sahib"
-          className="text-xl text-blue-600 dark:text-blue-400 underline"
+          className="text-xl text-slate-700 dark:text-slate-300 underline"
         >
           Japji Sahib
         </Link>

@@ -76,23 +76,26 @@ export default function StanzaPage() {
 
   return (
     <div className="p-6">
-      <h1 className="text-3xl font-bold my-6 dark:text-slate-200 text-slate-800">
-        Japji Sahib: {pauriData.title}
+      <h1 className="text-2xl font-bold mt-6 mb-2 dark:text-gray-300 text-gray-700">
+        Japji Sahib
       </h1>
+      <h2 className="text-xl dark:text-gray-400 text-gray-600 font-serif">
+        {pauriData.title}
+      </h2>
 
       {/* Rendering lines with dynamic font size */}
-      <div className={`${textSizeClass} dark:text-slate-200 text-slate-800`}>
+      <div className={`${textSizeClass} dark:text-gray-200 text-gray-800`}>
         {pauriData &&
           pauriData.lines.map((line, index) => (
             <div key={index} className="mb-6">
               <p className="my-4">-</p>
               <p
-                className={`${textSizeClassPlus} font-bold dark:text-slate-200 text-slate-800 mb-2`}
+                className={`${textSizeClassPlus} font-bold dark:text-gray-200 text-gray-800 mb-2`}
               >
                 {line.gurmukhi}
               </p>
 
-              <div className="dark:text-slate-400 text-slate-600 grid grid-cols-1 space-y-4 mt-4">
+              <div className="dark:text-gray-400 text-gray-600 grid grid-cols-1 space-y-4 mt-4">
                 <div>
                   <p className="mb-1 italic">
                     {line.devanagariTransliteration}
@@ -113,25 +116,25 @@ export default function StanzaPage() {
         {hasPrev ? (
           <button
             onClick={() => goToStanza(pauriIndex - 1)}
-            className="px-4 py-2 rounded bg-slate-200 dark:bg-slate-700 dark:text-slate-100 text-slate-800 hover:bg-slate-300 dark:hover:bg-slate-600"
+            className="px-4 py-2 rounded bg-gray-200 dark:bg-gray-700 dark:text-gray-100 text-gray-800 hover:bg-gray-300 dark:hover:bg-gray-600"
           >
             {"<"} Prev
           </button>
         ) : (
           <button
             onClick={() => router.push("/japji-sahib")}
-            className="px-4 py-2 rounded bg-slate-200 dark:bg-slate-700 dark:text-slate-100 text-slate-800 hover:bg-slate-300 dark:hover:bg-slate-600"
+            className="px-4 py-2 rounded bg-gray-200 dark:bg-gray-700 dark:text-gray-100 text-gray-800 hover:bg-gray-300 dark:hover:bg-gray-600"
           >
             Home
           </button>
         )}
-        <span className="mt-1.5 mx-4 text-slate-600 dark:text-slate-400">
+        <span className="mt-1.5 mx-4 text-gray-600 dark:text-gray-400">
           Japji Sahib - {pauriData.title}
         </span>
         {hasNext ? (
           <button
             onClick={() => goToStanza(pauriIndex + 1)}
-            className="px-4 py-2 rounded bg-slate-200 dark:bg-slate-700 dark:text-slate-100 text-slate-800 hover:bg-slate-300 dark:hover:bg-slate-600"
+            className="px-4 py-2 rounded bg-gray-200 dark:bg-gray-700 dark:text-gray-100 text-gray-800 hover:bg-gray-300 dark:hover:bg-gray-600"
           >
             Next {">"}
           </button>

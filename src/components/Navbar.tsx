@@ -57,12 +57,12 @@ export default function Navbar() {
   return (
     <>
       {/* NAVBAR */}
-      <nav className="fixed top-0 left-0 w-full h-16 z-50 bg-slate-100 dark:bg-slate-900 flex items-center justify-between px-4 shadow">
+      <nav className="fixed top-0 left-0 w-full h-16 z-50 bg-gray-100 dark:bg-black flex items-center justify-between px-4 shadow">
         {/* Left: Logo/Home */}
         <div>
           <Link href="/">
-            <span className="text-2xl tracking-wide font-medium cursor-pointer dark:text-slate-100 text-slate-900">
-              Nitnem Online
+            <span className="text-3xl font-medium cursor-pointer dark:text-gray-100 text-gray-900">
+              ੴ
             </span>
           </Link>
         </div>
@@ -72,7 +72,7 @@ export default function Navbar() {
           {/* About Us Link */}
           {/* <Link
             href="/about"
-            className="dark:text-slate-100 text-slate-800 hover:underline"
+            className="dark:text-gray-100 text-gray-800 hover:underline"
           >
             About Us
           </Link> */}
@@ -82,7 +82,7 @@ export default function Navbar() {
             <button
               // onClick={!isDrawerOpen ? openDrawer : closeDrawer}
               onClick={() => router.push("/japji-sahib")}
-              className="px-3 py-1 rounded bg-slate-200 dark:bg-slate-800 dark:text-slate-100 text-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700"
+              className="px-3 py-1 rounded bg-gray-200 dark:bg-gray-900 dark:text-gray-100 text-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700"
             >
               Select Stanza
             </button>
@@ -96,8 +96,8 @@ export default function Navbar() {
                 className={`px-2 py-1 rounded ${
                   fontSize === "sm"
                     ? "bg-blue-300 dark:bg-blue-700"
-                    : "bg-slate-200 dark:bg-slate-700"
-                } text-sm dark:text-slate-100 text-slate-800`}
+                    : "bg-gray-200 dark:bg-gray-700"
+                } text-sm dark:text-gray-100 text-gray-800`}
               >
                 A-
               </button>
@@ -106,8 +106,8 @@ export default function Navbar() {
                 className={`px-2 py-1 rounded ${
                   fontSize === "md"
                     ? "bg-blue-300 dark:bg-blue-700"
-                    : "bg-slate-200 dark:bg-slate-700"
-                } text-sm dark:text-slate-100 text-slate-800`}
+                    : "bg-gray-200 dark:bg-gray-700"
+                } text-sm dark:text-gray-100 text-gray-800`}
               >
                 A
               </button>
@@ -116,8 +116,8 @@ export default function Navbar() {
                 className={`px-2 py-1 rounded ${
                   fontSize === "lg"
                     ? "bg-blue-300 dark:bg-blue-700"
-                    : "bg-slate-200 dark:bg-slate-700"
-                } text-sm dark:text-slate-100 text-slate-800`}
+                    : "bg-gray-200 dark:bg-gray-700"
+                } text-sm dark:text-gray-100 text-gray-800`}
               >
                 A+
               </button>
@@ -127,7 +127,7 @@ export default function Navbar() {
           {/* Light/Dark Theme Toggle */}
           <button
             onClick={handleThemeToggle}
-            className="px-3 py-1 rounded bg-slate-200 dark:bg-slate-800 dark:text-slate-100 text-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700"
+            className="px-3 py-1 rounded bg-gray-200 dark:bg-gray-900 dark:text-gray-100 text-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700"
           >
             {mounted && theme == "dark" ? (
               <SunIcon className="w-6 h-6" />
@@ -146,15 +146,15 @@ export default function Navbar() {
             onClick={closeDrawer}
           />
           <div
-            className={`fixed top-0 right-0 h-full w-64 bg-slate-100 dark:bg-slate-800 shadow-lg z-40 transform transition-transform duration-300 
+            className={`fixed top-0 right-0 h-full w-64 bg-gray-100 dark:bg-gray-900 shadow-lg z-40 transform transition-transform duration-300 
             ${isDrawerOpen ? "translate-x-0" : "translate-x-full"}`}
           >
             {/* Drawer Header */}
-            <div className="flex items-center justify-between p-4 border-b border-slate-300 dark:border-slate-700">
+            <div className="flex items-center justify-between p-4 border-b border-gray-300 dark:border-gray-700">
               <h2 className="text-lg font-semibold dark:text-white">Stanzas</h2>
               <button
                 onClick={closeDrawer}
-                className="text-slate-600 dark:text-slate-200 hover:text-black dark:hover:text-white"
+                className="text-gray-600 dark:text-gray-200 hover:text-black dark:hover:text-white"
               >
                 ✕
               </button>
@@ -166,7 +166,7 @@ export default function Navbar() {
                 <button
                   key={stanza.id}
                   onClick={() => handleStanzaSelect(stanza.id)}
-                  className="block w-full text-left py-2 px-2 mb-1 rounded hover:bg-slate-200 dark:hover:bg-slate-700 dark:text-slate-100 text-slate-800"
+                  className="block w-full text-left py-2 px-2 mb-1 rounded hover:bg-gray-200 dark:hover:bg-gray-700 dark:text-gray-100 text-gray-800"
                 >
                   {stanza.title}
                 </button>
