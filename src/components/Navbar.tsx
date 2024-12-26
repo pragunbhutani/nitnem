@@ -10,9 +10,7 @@ import { japjiData } from "@/data/japjiData";
 
 import { SunIcon, MoonIcon } from "@heroicons/react/24/outline";
 
-interface NavbarProps {}
-
-export default function Navbar({}: NavbarProps) {
+export default function Navbar() {
   // Dark mode handling
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -35,7 +33,7 @@ export default function Navbar({}: NavbarProps) {
   const isBaniRoute = pathname.startsWith("/japji-sahib/");
 
   // Toggle drawer
-  const openDrawer = () => setIsDrawerOpen(true);
+  // const openDrawer = () => setIsDrawerOpen(true);
   const closeDrawer = () => setIsDrawerOpen(false);
 
   // Theme toggle
