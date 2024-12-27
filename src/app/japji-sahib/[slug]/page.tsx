@@ -24,17 +24,6 @@ const PauriPage = () => {
     return <div>Pauri not found</div>;
   }
 
-  const getFontSizeClass = () => {
-    switch (fontSize) {
-      case "sm":
-        return "text-sm";
-      case "lg":
-        return "text-xl";
-      default:
-        return "text-base";
-    }
-  };
-
   const handlePrevChapter = () => {
     if (prevPauri) {
       router.push(`/japji-sahib/${prevPauri.slug}`);

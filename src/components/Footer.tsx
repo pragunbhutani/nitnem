@@ -1,7 +1,5 @@
 "use client";
 
-import Link from "next/link";
-
 const Footer = () => {
   return (
     <footer className="border-t bg-gray-50 dark:bg-gray-800 py-8 w-full">

@@ -4,8 +4,7 @@ import React, { useState, useEffect } from "react";
 import { Sun, Moon, BookOpenText, X, Menu } from "lucide-react";
 import { useTheme } from "next-themes";
 import { useUserPreferences } from "@/context/UserPreferencesContext";
-import { useRouter, useParams, usePathname } from "next/navigation";
-import { japjiData } from "@/data/japjiData";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -13,10 +12,7 @@ export default function Navbar() {
   const { fontSize, setFontSize } = useUserPreferences();
   const [mounted, setMounted] = useState(false);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
-  const router = useRouter();
-  const params = useParams();
-  const slug = params.pauriTitle as string;
-  const currentPauri = japjiData.find((pauri) => pauri.slug === slug);
+
   const pathname = usePathname();
 
   // After mounting, we have access to the theme
