@@ -3,6 +3,7 @@ export const japjiData = [
   {
     id: 0,
     title: "Mool Mantar & Jap",
+    slug: "mool-mantar-and-jap",
     lines: [
       {
         gurmukhi: "ੴ",
@@ -101,6 +102,7 @@ export const japjiData = [
   {
     id: 1,
     title: "Pauri 1",
+    slug: "pauri-1",
     lines: [
       {
         gurmukhi: "ਸੋਚੈ ਸੋਚਿ ਨ ਹੋਵਈ ਜੇ ਸੋਚੀ ਲਖ ਵਾਰ ॥",
@@ -162,6 +164,7 @@ export const japjiData = [
   {
     id: 2,
     title: "Pauri 2",
+    slug: "pauri-2",
     lines: [
       {
         gurmukhi: "ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥",
@@ -229,6 +232,7 @@ export const japjiData = [
   {
     id: 3,
     title: "Pauri 3",
+    slug: "pauri-3",
     lines: [
       {
         gurmukhi: "ਗਾਵੈ ਕੋ ਤਾਣੁ ਹੋਵੈ ਕਿਸੈ ਤਾਣੁ ॥",
@@ -355,6 +359,7 @@ export const japjiData = [
   {
     id: 4,
     title: "Pauri 4",
+    slug: "pauri-4",
     lines: [
       {
         gurmukhi: "ਸਾਚਾ ਸਾਹਿਬੁ ਸਾਚੁ ਨਾਇ ਭਾਖਿਆ ਭਾਉ ਅਪਾਰੁ ॥",
@@ -424,6 +429,7 @@ export const japjiData = [
   {
     id: 5,
     title: "Pauri 5",
+    slug: "pauri-5",
     lines: [
       {
         gurmukhi: "ਥਾਪਿਆ ਨ ਜਾਇ ਕੀਤਾ ਨ ਹੋਇ ॥",
@@ -502,6 +508,7 @@ export const japjiData = [
   {
     id: 6,
     title: "Pauri 6",
+    slug: "pauri-6",
     lines: [
       {
         gurmukhi: "ਸੁਣਿਐ ਸਿਧ ਪੀਰ ਸੁਰਿ ਨਾਥ ॥",
@@ -556,6 +563,7 @@ export const japjiData = [
   {
     id: 7,
     title: "Pauri 7",
+    slug: "pauri-7",
     lines: [
       {
         gurmukhi: "ਸੁਣਿਐ ਈਸਰੁ ਬ੍ਰਹਮਾ ਇੰਦ ॥",
@@ -612,6 +620,7 @@ export const japjiData = [
   {
     id: 8,
     title: "Pauri 8",
+    slug: "pauri-8",
     lines: [
       {
         gurmukhi: "ਸੁਣਿਐ ਸਤੁ ਸੰਤੋਖੁ ਗਿਆਨ ॥",
@@ -668,6 +677,7 @@ export const japjiData = [
   {
     id: 9,
     title: "Pauri 9",
+    slug: "pauri-9",
     lines: [
       {
         gurmukhi: "ਮੰਨੇ ਕੀ ਗਤਿ ਕਹੀ ਨ ਜਾਇ ॥",
@@ -725,6 +735,7 @@ export const japjiData = [
   {
     id: 10,
     title: "Pauri 10",
+    slug: "pauri-10",
     lines: [
       {
         gurmukhi: "ਮੰਨੇ ਸੁਰਤਿ ਹੋਵੈ ਮਨਿ ਬੁੱਧਿ ॥",
@@ -779,6 +790,7 @@ export const japjiData = [
   {
     id: 11,
     title: "Pauri 11",
+    slug: "pauri-11",
     lines: [
       {
         gurmukhi: "ਮੰਨੇ ਪਾਵਹਿ ਮੋਖ ਦੁਆਰੁ ॥",
@@ -835,6 +847,7 @@ export const japjiData = [
   {
     id: 12,
     title: "Pauri 12",
+    slug: "pauri-12",
     lines: [
       {
         gurmukhi: "ਮੰਨੇ ਮਗੁ ਨ ਚਲੈ ਪੰਥ ॥",
@@ -893,6 +906,7 @@ export const japjiData = [
   {
     id: 13,
     title: "Pauri 13",
+    slug: "pauri-13",
     lines: [
       {
         gurmukhi: "ਪੰਚ ਪਰਵਾਣ ਪੰਚ ਪਰਧਾਨ ॥",
@@ -949,6 +963,7 @@ export const japjiData = [
   {
     id: 14,
     title: "Pauri 14",
+    slug: "pauri-14",
     lines: [
       {
         gurmukhi: "ਧੌਲੁ ਧਰਮੁ ਦਇਆ ਕਾ ਪੂਤ ॥",
@@ -1006,6 +1021,7 @@ export const japjiData = [
   {
     id: 15,
     title: "Pauri 15",
+    slug: "pauri-15",
     lines: [
       {
         gurmukhi: "ਅਸੰਖ ਜਪ ਅਸੰਖ ਭਾਉ ॥",
@@ -1074,6 +1090,7 @@ export const japjiData = [
   {
     id: 16,
     title: "Pauri 16",
+    slug: "pauri-16",
     lines: [
       {
         gurmukhi: "ਅਸੰਖ ਮਲੈ ਅਸੰਖ ਦੁਖ ਭਾਰ ॥",
@@ -1127,6 +1144,7 @@ export const japjiData = [
   {
     id: 17,
     title: "Pauri 17",
+    slug: "pauri-17",
     lines: [
       {
         gurmukhi: "ਅਸੰਖ ਤਿਰਥ ਅਸੰਖ ਮਉਸ ॥",
@@ -1184,6 +1202,7 @@ export const japjiData = [
   {
     id: 18,
     title: "Pauri 18",
+    slug: "pauri-18",
     lines: [
       {
         gurmukhi: "ਭੁਗਤਿ ਗਿਆਨੁ ਦਇਆ ਭੰਦਾਰ ॥",
@@ -1243,6 +1262,7 @@ export const japjiData = [
   {
     id: 19,
     title: "Pauri 19",
+    slug: "pauri-19",
     lines: [
       {
         gurmukhi: "ਭਰੀਐ ਹੱਥ ਪੈਰ ਤਨੁ ਦੇਹ ॥",
@@ -1303,6 +1323,7 @@ export const japjiData = [
   {
     id: 20,
     title: "Pauri 20",
+    slug: "pauri-20",
     lines: [
       {
         gurmukhi: "ਤਿਰਥਿ ਨਾਵਾ ਜੇ ਤਿਸੁ ਭਾਵਾ ॥",
@@ -1359,6 +1380,7 @@ export const japjiData = [
   {
     id: 21,
     title: "Pauri 21",
+    slug: "pauri-21",
     lines: [
       {
         gurmukhi: "ਸਾਲਾਹੀ ਸਾਲਾਹ ਤਿਰੀ ਸੁਰਿ ਲਖੈ ਨ ਹੋਇ ॥",
@@ -1418,6 +1440,7 @@ export const japjiData = [
   {
     id: 22,
     title: "Pauri 22",
+    slug: "pauri-22",
     lines: [
       {
         gurmukhi: "ਜੇਤੀਆ ਤਿਸੁ ਗੁਣ ਉਚਰੀਆ ॥",
@@ -1472,6 +1495,7 @@ export const japjiData = [
   {
     id: 23,
     title: "Pauri 23",
+    slug: "pauri-23",
     lines: [
       {
         gurmukhi: "ਖਿੰਥਾ ਕਾਲੁ ਕੁਆਰੀ ਕਾਇਆ ਜੁਗਤਿ ਡੰਡਾ ਪਰਤੀਤਿ ॥",
@@ -1520,6 +1544,7 @@ export const japjiData = [
   {
     id: 24,
     title: "Pauri 24",
+    slug: "pauri-24",
     lines: [
       {
         gurmukhi: "ਸਾਸ ਸਾਸ ਸਾਸ ਹੈ ਸੋਈ ॥",
@@ -1576,6 +1601,7 @@ export const japjiData = [
   {
     id: 25,
     title: "Pauri 25",
+    slug: "pauri-25",
     lines: [
       {
         gurmukhi: "ਹਉ ਘਾਲੀ ਹਉ ਘਾਲਣ ਲਾਏ ॥",
@@ -1626,6 +1652,7 @@ export const japjiData = [
   {
     id: 26,
     title: "Pauri 26",
+    slug: "pauri-26",
     lines: [
       {
         gurmukhi: "ਭੈ ਵਿਣੁ ਨਿਰਭਉ ਕਿਉ ਰਹੀਐ ॥",
@@ -1678,6 +1705,7 @@ export const japjiData = [
   {
     id: 27,
     title: "Pauri 27",
+    slug: "pauri-27",
     lines: [
       {
         gurmukhi: "ਸੋ ਅੰਦਰਾ ਜੋ ਮਨਿ ਵੁਠਾ ਜਾਇ ॥",
@@ -1735,6 +1763,7 @@ export const japjiData = [
   {
     id: 28,
     title: "Pauri 28",
+    slug: "pauri-28",
     lines: [
       {
         gurmukhi: "ਸਚੁ ਤੁਟੀ ਨਾਲਿ ਰਿਦੈ ਇੰਦ੍ਰੀਅ ਰਾਸਿ ॥",
@@ -1790,6 +1819,7 @@ export const japjiData = [
   {
     id: 29,
     title: "Pauri 29",
+    slug: "pauri-29",
     lines: [
       {
         gurmukhi: "ਏਕਸੁ ਤੇ ਸਭ ਹੋਵੈ ਏਕੁ ॥",
@@ -1851,6 +1881,7 @@ export const japjiData = [
   {
     id: 30,
     title: "Pauri 30",
+    slug: "pauri-30",
     lines: [
       {
         gurmukhi: "ਏਕੁ ਤਿਲੁ ਪਿਆਰਾ ਵਿਸਰੈ ਘੋਖ ਦਿਤੇ ਦਿਨ ਰਾਤਿ ॥",
@@ -1901,6 +1932,7 @@ export const japjiData = [
   {
     id: 31,
     title: "Pauri 31",
+    slug: "pauri-31",
     lines: [
       {
         gurmukhi: "ਸਾਚਾ ਤੀਰਥੁ ਜਿਤੁ ਸਤਿ ਉਪਜੇ ਸਚੁ ਓਪਤਿ ਹੋਇ ॥",
@@ -1955,6 +1987,7 @@ export const japjiData = [
   {
     id: 32,
     title: "Pauri 32",
+    slug: "pauri-32",
     lines: [
       {
         gurmukhi: "ਕੋਈ ਨ ਜਾਣੈ ਤੁਮ੍ਹ੍ਹਰੀ ਘਤਿ ॥",
@@ -2003,6 +2036,7 @@ export const japjiData = [
   {
     id: 33,
     title: "Pauri 33",
+    slug: "pauri-33",
     lines: [
       {
         gurmukhi: "ਆਖਣਿ ਜੋਰੁ ਚੁਪੈ ਨਾਹਿ ਜੋਰੁ ॥",
@@ -2069,6 +2103,7 @@ export const japjiData = [
   {
     id: 34,
     title: "Pauri 34",
+    slug: "pauri-34",
     lines: [
       {
         gurmukhi: "ਰਾਤੀ ਰੁਤੀ ਥਿਤੀ ਵਾਰ ॥",
@@ -2124,6 +2159,7 @@ export const japjiData = [
   {
     id: 35,
     title: "Pauri 35",
+    slug: "pauri-35",
     lines: [
       {
         gurmukhi: "ਧਰਤੀ ਹੋਰਿ ਪਰੈ ਹੋਰੁ ਹੋਰੁ ॥",
@@ -2177,6 +2213,7 @@ export const japjiData = [
   {
     id: 36,
     title: "Pauri 36",
+    slug: "pauri-36",
     lines: [
       {
         gurmukhi: "ਸਾਲਾਹ ਸਾਲਾਹ ਏਕਤੁ ਏਕ ॥",
@@ -2224,6 +2261,7 @@ export const japjiData = [
   {
     id: 37,
     title: "Pauri 37",
+    slug: "pauri-37",
     lines: [
       {
         gurmukhi: "ਸਭਿ ਸੁਣਿਐ ਸਤ ਪਾਦੁ ਉਤਪੰਨ ॥",
@@ -2273,6 +2311,7 @@ export const japjiData = [
   {
     id: 38,
     title: "Pauri 38",
+    slug: "pauri-38",
     lines: [
       {
         gurmukhi: "ਜੇਤੁ ਲੈਏ ਤਿਤੁ ਨ ਹੋਵੈ ਘਾਟ ॥",
@@ -2327,6 +2366,7 @@ export const japjiData = [
   {
     id: 39,
     title: "Salok (Final)",
+    slug: "salok",
     lines: [
       {
         gurmukhi: "ਪਵਣ ਗੁਰੂ ਪਾਣੀ ਪਿਤਾ ਮਾਤਾ ਧਰਤਿ ਮਹਤ ॥",

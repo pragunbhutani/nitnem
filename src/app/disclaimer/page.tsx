@@ -1,6 +1,6 @@
 export default function DisclaimerPage() {
   return (
-    <div className="max-w-2xl mx-auto p-6">
+    <div className="max-w-2xl mx-auto p-6 flex-1 flex flex-col items-center justify-center text-center">
       <h1 className="text-2xl font-bold mb-4 dark:text-white">Disclaimer</h1>
       <div className="font-serif">
         <p className="text-gray-700 dark:text-gray-200 mb-4">
@@ -16,7 +16,14 @@ export default function DisclaimerPage() {
           content are unintentional, and we humbly apologize for them.
         </p>
         <p className="text-gray-700 dark:text-gray-200">
-          If you have any suggestions or notice any mistakes, please share them
+          If you have any suggestions or notice any mistakes,{" "}
+          <a
+            href="https://github.com/pragunbhutani/nitnem/issues/new"
+            className="underline"
+            target="_blank"
+          >
+            please share them
+          </a>{" "}
           so that this resource — and our own understanding — may continue to
           improve.
         </p>

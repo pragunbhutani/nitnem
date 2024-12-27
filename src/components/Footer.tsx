@@ -2,30 +2,29 @@
 
 import Link from "next/link";
 
-export default function Footer() {
+const Footer = () => {
   return (
-    <footer className="w-full text-center p-4 bg-gray-200 dark:bg-gray-800">
-      {/* First line: disclaimer + suggest improvements */}
-      <p className="text-sm text-gray-600 dark:text-gray-300">
-        <Link href="/disclaimer" className="underline hover:text-blue-600">
-          Disclaimer
-        </Link>
-        {" | "}
-        {/* Replace with your actual GitHub issues link */}
-        <a
-          href="https://github.com/YourRepo/YourProject/issues"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline hover:text-blue-600"
-        >
-          Suggest Improvements
-        </a>
-      </p>
+    <footer className="border-t bg-gray-50 dark:bg-gray-800 py-8 w-full">
+      <div className="max-w-4xl mx-auto px-4">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="flex gap-6">
+            <a href="/disclaimer" className="hover:underline">
+              Disclaimer
+            </a>
+            <a
+              href="https://github.com/pragunbhutani/nitnem/issues/new"
+              className="hover:underline"
+              target="_blank"
+            >
+              Suggest Improvements
+            </a>
+          </div>
 
-      {/* Second line: "satnam waheguru" in Gurmukhi */}
-      <p className="mt-2 text-lg font-semibold text-gray-700 dark:text-gray-200">
-        ਸਤਿਨਾਮ ਵਾਹਿਗੁਰੂ
-      </p>
+          <p className="text-2xl">ਸਤਿਨਾਮ ਵਾਹਿਗੁਰੂ</p>
+        </div>
+      </div>
     </footer>
   );
-}
+};
+
+export default Footer;

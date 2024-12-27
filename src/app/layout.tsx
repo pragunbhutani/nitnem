@@ -1,17 +1,12 @@
 // app/layout.tsx
+"use client";
+
 import "./globals.css";
-import { Inter } from "next/font/google";
+
 import { ThemeProvider } from "next-themes";
+import { UserPreferencesProvider } from "@/context/UserPreferencesContext";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { UserPreferencesProvider } from "@/context/UserPreferencesContext";
-
-const inter = Inter({ subsets: ["latin"] });
-
-export const metadata = {
-  title: "Nitnem App",
-  description: "Explore Nitnem Banis in a modern interface.",
-};
 
 export default function RootLayout({
   children,
@@ -19,15 +14,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.className} suppressHydrationWarning>
-      <body className="">
-        <ThemeProvider attribute="class" defaultTheme="dark">
+    <html lang="en" suppressHydrationWarning>
+      <body>
+        <ThemeProvider attribute="class">
           <UserPreferencesProvider>
-            <Navbar />
-            <main className="flex flex-col items-center justify-center min-h-screen pt-16 px-6 text-center bg-gray-100 dark:bg-black">
+            <div className="min-h-screen bg-white flex flex-col items-center justify-center text-gray-900 dark:bg-gray-900 dark:text-white">
+              <Navbar />
               {children}
-            </main>
-            <Footer />
+              <Footer />
+            </div>
           </UserPreferencesProvider>
         </ThemeProvider>
       </body>
