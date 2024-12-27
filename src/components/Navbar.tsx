@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Sun, Moon, BookOpenText, X, Menu } from "lucide-react";
+import { Sun, Moon, X, Menu, BookOpenText } from "lucide-react";
 import { useTheme } from "next-themes";
 import { useUserPreferences } from "@/context/UserPreferencesContext";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -14,7 +14,7 @@ export default function Navbar() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
 
   const pathname = usePathname();
-
+  const router = useRouter();
   // After mounting, we have access to the theme
   useEffect(() => {
     setMounted(true);
@@ -35,15 +35,12 @@ export default function Navbar() {
         </button>
       </div>
       <div className="p-6 space-y-6">
-        {/* <button
-          onClick={() => {
-            setShowChapterMenu(true);
-            setShowMobileMenu(false);
-          }}
+        <button
+          onClick={() => router.push("/japji-sahib")}
           className="w-full py-3 px-4 rounded-md bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700"
         >
           Select Chapter
-        </button> */}
+        </button>
         <div className="flex justify-between gap-2">
           <button
             onClick={() => setFontSize("sm")}
@@ -110,8 +107,8 @@ export default function Navbar() {
               {isOnPauriPage() && (
                 <>
                   <Link href="/japji-sahib" className={buttonBaseClass}>
-                    <Menu size={20} />
-                    <span>All Chapters</span>
+                    <BookOpenText size={20} />
+                    <span>Chapters</span>
                   </Link>
 
                   <div className="flex gap-2">
@@ -161,7 +158,7 @@ export default function Navbar() {
               onClick={() => setShowMobileMenu(true)}
               className={`md:hidden ${buttonBaseClass}`}
             >
-              <BookOpenText size={20} />
+              <Menu size={20} />
             </button>
           </div>
         </div>
