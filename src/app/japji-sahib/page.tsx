@@ -11,7 +11,7 @@ const JapjiSahibLandingPage = () => {
           <Link
             key={pauri.id}
             href={`/japji-sahib/${pauri.slug}`}
-            className="p-6 rounded-xl shadow-lg bg-white dark:bg-gray-800 hover:shadow-xl transition-shadow"
+            className="p-6 rounded-xl shadow-lg bg-white dark:bg-gray-800 dark:hover:bg-gray-700 hover:bg-gray-100 hover:shadow-xl transition-shadow"
           >
             <div className="text-center">
               <h2 className="text-xl font-bold mb-2">{pauri.title}</h2>
