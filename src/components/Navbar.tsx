@@ -36,7 +36,10 @@ export default function Navbar() {
       </div>
       <div className="p-6 space-y-6">
         <button
-          onClick={() => router.push("/japji-sahib")}
+          onClick={() => {
+            setShowMobileMenu(false);
+            router.push("/japji-sahib");
+          }}
           className="w-full py-3 px-4 rounded-md bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700"
         >
           Select Chapter
